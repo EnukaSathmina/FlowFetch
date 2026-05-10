@@ -118,3 +118,10 @@ If you like this project, consider giving it a star on GitHub.
 ⭐ **Star the repository to support the project!**
 
 </div>
+
+## 📜 License
+
+All Rights Reserved.
+
+This software and its source code are publicly visible for portfolio purposes only.  
+Copying, modifying, redistributing, or commercial use is not allowed without permission.
