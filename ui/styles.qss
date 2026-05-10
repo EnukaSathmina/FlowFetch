@@ -1,0 +1,622 @@
+QWidget {
+    background: transparent;
+    color: #edf6ff;
+    font-family: "Segoe UI";
+    font-size: 13px;
+}
+
+QWidget#CentralRoot,
+QStackedWidget,
+QWidget#MainContentHost {
+    background: #04101e;
+}
+
+QLabel {
+    background: transparent;
+}
+
+QMainWindow {
+    background: #04101e;
+}
+
+QStatusBar {
+    background: #071321;
+    border-top: 1px solid #173251;
+    color: #b7c7db;
+    padding: 8px;
+}
+
+#StatusText {
+    color: #dcecff;
+    padding-right: 18px;
+}
+
+#Sidebar {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #071a2c,
+        stop:0.5 #061424,
+        stop:1 #040d19);
+    border-right: 1px solid #173251;
+}
+
+QScrollArea#MainScrollArea {
+    border: 0;
+    background: #04101e;
+}
+
+QScrollArea#MainScrollArea > QWidget > QWidget {
+    background: #04101e;
+}
+
+#LogoMark {
+    min-width: 48px;
+    max-width: 48px;
+    min-height: 48px;
+    max-height: 48px;
+    qproperty-alignment: AlignCenter;
+    background: transparent;
+}
+
+#AppTitle {
+    font-size: 22px;
+    font-weight: 800;
+    color: #f6fbff;
+}
+
+#Subtitle {
+    color: #9db0c8;
+}
+
+#PageTitle {
+    font-size: 28px;
+    font-weight: 800;
+    color: #f7fbff;
+}
+
+#Card,
+#Panel,
+#MetricCard {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0b2138,
+        stop:0.55 #07182a,
+        stop:1 #071323);
+    border: 1px solid #1b4169;
+    border-radius: 10px;
+}
+
+#Panel {
+    min-height: 220px;
+}
+
+#MetricCard {
+    min-height: 108px;
+    border-radius: 12px;
+}
+
+#MetricIcon {
+    min-width: 56px;
+    max-width: 56px;
+    min-height: 56px;
+    max-height: 56px;
+    border-radius: 28px;
+    color: transparent;
+    qproperty-alignment: AlignCenter;
+}
+
+#MetricValue {
+    background: transparent;
+    font-size: 34px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+#MetricLabel {
+    background: transparent;
+    color: #b9cbe2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#PanelTitle {
+    color: #f1f7ff;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#SpeedPanel {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0b223a,
+        stop:0.5 #071a2d,
+        stop:1 #061423);
+}
+
+#SpeedGrid {
+    border: 1px solid #16304d;
+    border-radius: 8px;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #071827,
+        stop:1 #08111d);
+}
+
+#SpeedChartSurface {
+    border: 0;
+    background: transparent;
+}
+
+#SpeedMode {
+    min-width: 104px;
+    padding: 7px 12px;
+    background: #0d2138;
+    border: 1px solid #1a3d62;
+    border-radius: 8px;
+    color: #d9ebff;
+}
+
+#SpeedGrid QLabel {
+    background: transparent;
+}
+
+#EmptyState {
+    color: #9db0c8;
+    font-size: 16px;
+    padding: 36px;
+}
+
+#DownloadSection {
+    background: transparent;
+}
+
+#DownloadHeader {
+    background: transparent;
+    border-bottom: 1px solid #173654;
+    padding-bottom: 4px;
+}
+
+#DownloadHeaderLabel {
+    color: #88a3c2;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+#DownloadListHost {
+    background: transparent;
+}
+
+#DownloadRowCard {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #071827,
+        stop:1 #0a1d31);
+    border: 1px solid #1b3a5b;
+    border-radius: 12px;
+}
+
+#DownloadRowCard:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0a2034,
+        stop:1 #10263c);
+    border-color: #2b6aa1;
+}
+
+#RowIcon {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0e2f4f,
+        stop:1 #0a1f37);
+    border: 1px solid #20517b;
+    border-radius: 10px;
+}
+
+#DownloadFileName {
+    color: #f4f9ff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#DownloadMeta {
+    color: #9db0c8;
+    font-size: 12px;
+}
+
+#DownloadInfoValue {
+    color: #dcecff;
+    font-size: 13px;
+    font-weight: 600;
+    qproperty-alignment: AlignCenter;
+}
+
+#DownloadProgressValue {
+    color: #dcecff;
+    font-size: 12px;
+    font-weight: 700;
+    min-width: 34px;
+}
+
+#DownloadStatusBadge {
+    min-width: 84px;
+    qproperty-alignment: AlignCenter;
+}
+
+#RowActionButton {
+    min-width: 34px;
+    max-width: 34px;
+    min-height: 34px;
+    max-height: 34px;
+    padding: 0;
+    background: #0c2035;
+    border: 1px solid #21486d;
+    border-radius: 9px;
+}
+
+#RowActionButton:hover {
+    background: #143252;
+    border-color: #2d80d7;
+}
+
+#DownloadRowProgress {
+    background: #091625;
+    border: 1px solid #173654;
+    border-radius: 5px;
+    min-height: 8px;
+    max-height: 8px;
+}
+
+#DownloadRowProgress::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #238cff,
+        stop:1 #26d7ee);
+    border-radius: 4px;
+}
+
+#ActivityRow {
+    background: #081b2f;
+    border: 1px solid #163352;
+    border-radius: 8px;
+}
+
+#ActivityName {
+    color: #f4f9ff;
+    font-weight: 700;
+}
+
+#SettingsSection,
+#AboutCard {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0a2035,
+        stop:0.6 #081727,
+        stop:1 #07111f);
+    border: 1px solid #1b4169;
+    border-radius: 14px;
+}
+
+#SettingsRow {
+    background: #071828;
+    border: 1px solid #143451;
+    border-radius: 10px;
+    padding: 12px 14px;
+}
+
+#SettingsRowLabel {
+    color: #f4f9ff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#SettingsTitle {
+    color: #f4f9ff;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#SettingsDescription {
+    color: #9db0c8;
+    font-size: 12px;
+}
+
+#AboutIcon {
+    background: #081828;
+    border: 1px solid #1f496f;
+    border-radius: 14px;
+}
+
+QPushButton {
+    background: #0d2136;
+    border: 1px solid #24476a;
+    border-radius: 8px;
+    padding: 9px 13px;
+    color: #eaf5ff;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background: #123252;
+    border-color: #2d80d7;
+}
+
+QPushButton:pressed {
+    background: #0a1b2e;
+}
+
+QPushButton:disabled {
+    color: #60738a;
+    background: #0a1624;
+    border-color: #17283c;
+}
+
+QPushButton#PrimaryButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #1e90ff,
+        stop:1 #22d3ee);
+    border-color: #58e5ff;
+    color: #03111f;
+}
+
+QPushButton#PrimaryButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #45a7ff,
+        stop:1 #67ecff);
+}
+
+QPushButton#DangerButton {
+    background: #26111a;
+    border: 1px solid #6d2840;
+    color: #ffd7df;
+}
+
+QPushButton#DangerButton:hover {
+    background: #3a1624;
+    border-color: #fb7185;
+}
+
+QPushButton#NavButton {
+    text-align: left;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 13px 14px 13px 16px;
+    background: transparent;
+    color: #d3deeb;
+    font-size: 15px;
+}
+
+QPushButton#NavButton:hover {
+    background: #0b233a;
+    border-color: #143d63;
+}
+
+QPushButton#NavButton:checked {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #1164c4,
+        stop:1 #0b3d7c);
+    border-color: #1f91ff;
+    color: #ffffff;
+}
+
+QLineEdit,
+QSpinBox,
+QComboBox,
+QDoubleSpinBox {
+    background: #071421;
+    border: 1px solid #244463;
+    border-radius: 8px;
+    padding: 10px 11px;
+    color: #edf7ff;
+    selection-background-color: #1e90ff;
+}
+
+QLineEdit:focus,
+QSpinBox:focus,
+QComboBox:focus,
+QDoubleSpinBox:focus {
+    border-color: #22d3ee;
+}
+
+QComboBox::drop-down {
+    border: 0;
+    width: 28px;
+}
+
+QComboBox::down-arrow {
+    width: 10px;
+    height: 10px;
+}
+
+QCheckBox {
+    color: #edf7ff;
+    spacing: 10px;
+    padding: 0 2px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    border: 1px solid #2b557a;
+    background: #071421;
+}
+
+QCheckBox::indicator:hover {
+    border-color: #38bdf8;
+}
+
+QCheckBox::indicator:checked {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #19b7ff,
+        stop:1 #23dbe8);
+    border-color: #67ecff;
+}
+
+QCheckBox::indicator:disabled {
+    background: #0a1624;
+    border-color: #17283c;
+}
+
+QProgressBar {
+    background: #091929;
+    border: 1px solid #183653;
+    border-radius: 5px;
+    min-height: 10px;
+    max-height: 10px;
+    text-align: center;
+    color: transparent;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #238cff,
+        stop:1 #26d7ee);
+    border-radius: 4px;
+}
+
+QProgressBar#MiniProgress {
+    border: 0;
+    min-height: 3px;
+    max-height: 3px;
+    background: #12304c;
+}
+
+QProgressBar#SpeedRing {
+    min-height: 8px;
+    max-height: 8px;
+}
+
+QTableWidget,
+QTableWidget#DashboardTable {
+    background: #071827;
+    alternate-background-color: #0a1d31;
+    border: 1px solid #1b3a5b;
+    border-radius: 8px;
+    gridline-color: #183653;
+    color: #e9f3ff;
+}
+
+QHeaderView::section {
+    background: #0b2137;
+    color: #b9c8d8;
+    border: 0;
+    border-bottom: 1px solid #224464;
+    padding: 10px;
+    font-weight: 700;
+}
+
+QTableWidget::item {
+    padding: 8px;
+    background: transparent;
+}
+
+QScrollArea {
+    border: 0;
+    background: transparent;
+}
+
+QMenu {
+    background-color: #071827;
+    border: 1px solid #1b4169;
+    border-radius: 8px;
+    padding: 6px;
+    color: #edf6ff;
+}
+
+QMenu::item {
+    padding: 8px 28px 8px 12px;
+    border-radius: 6px;
+    background: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #123252;
+    color: #ffffff;
+}
+
+QMenu::item:disabled {
+    color: #60738a;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: #1b4169;
+    margin: 6px 4px;
+}
+
+/* ============================= */
+/* Premium Modern Scrollbars     */
+/* ============================= */
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 10px;
+    margin: 4px 2px 4px 2px;
+    border: none;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #2ea8ff,
+        stop:0.5 #1f6feb,
+        stop:1 #0b5fc7);
+    min-height: 42px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #60dfff,
+        stop:1 #249bff);
+}
+
+QScrollBar::handle:vertical:pressed {
+    background: #67ecff;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: transparent;
+    border: none;
+    width: 0px;
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+
+/* Horizontal Scrollbar */
+QScrollBar:horizontal {
+    background: transparent;
+    height: 10px;
+    margin: 2px 4px 2px 4px;
+    border: none;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #2ea8ff,
+        stop:0.5 #1f6feb,
+        stop:1 #0b5fc7);
+    min-width: 42px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #60dfff,
+        stop:1 #249bff);
+}
+
+QScrollBar::handle:horizontal:pressed {
+    background: #67ecff;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    background: transparent;
+    border: none;
+    width: 0px;
+    height: 0px;
+}
+
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    background: transparent;
+}
