@@ -42,12 +42,6 @@ It is designed to make downloading direct files faster, cleaner, and more organi
 
 ---
 
-## 📸 Preview
-
-> Add your FlowFetch screenshot here.
-
-![FlowFetch Preview](assets/preview.png)
-
 
 # 🛠️ Tech Stack
 
