@@ -42,7 +42,6 @@ It is designed to make downloading direct files faster, cleaner, and more organi
 
 ---
 
-
 # 🛠️ Tech Stack
 
 FlowFetch is built with:
@@ -95,7 +94,7 @@ The EXE will use the FlowFetch icon from:
 assets/icon.ico
 ```
 
-## ⚠️ Notes
+# ⚠️ Notes
 - FlowFetch is made for direct file links.
 - It is not designed for full website scraping.
 - Pause/resume depends on server support for: `Accept-Ranges: bytes`
