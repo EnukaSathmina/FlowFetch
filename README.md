@@ -102,7 +102,7 @@ assets/icon.ico
 
 <div align="center">
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 ### Enuka Sathmina
 
